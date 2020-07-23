@@ -4,6 +4,9 @@
 
 
 
+
+
+
 问题：运行map-demo存在报错：     ×
 Unhandled Rejection (TypeError): Cannot read property '0' of undefined
 (anonymous function)
@@ -20,6 +23,26 @@ This screen is visible only in development. It will not appear if the app crashe
 Open your browser’s developer console to further inspect this error.  Click the 'X' or hit ESC to dismiss this message.
 
 
+
+
+
+
 原因：104行的this.state.waveDataHeight.data[i]无数据
+
+
+
+
+
+
+
+
 说明：在94行中的console.log(this.state.waveDataHeight) 可以打印出数据，但在104行中数据为空
+
+
+
+
+
+
+
+
 解决：未解决
